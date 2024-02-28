@@ -1,0 +1,109 @@
+.header {
+    text-align: center;
+}
+
+.logo {
+    max-width: 100%;
+    max-height: 120px;
+    object-fit: cover;
+}
+
+.award-section {
+    display: flex;
+}
+
+.award1-box {
+    width: 36%;
+}
+
+.award1 {
+    max-width: 100%;
+    max-height: 620px;
+    object-fit: cover;
+}
+
+.award2 {
+    max-width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.devicesImg {
+    max-width: 80%;
+    max-height: 400px;
+    object-fit: cover;
+    margin: 0 auto;
+
+}
+
+.about-award {
+    width: 63%;
+}
+
+ul li {
+    line-height: 17px;
+    margin-bottom: 4px;
+}
+
+.devices-section {
+    margin-top: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    width: 98.5%;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 20px;
+    min-height: 120px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eb3838;
+}
+
+.footer p {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.icons {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    color: #eb3838;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+@media (max-width : 650px) {
+    .award1 {
+        height: 400px;
+    }
+
+    .devicesImg {
+        max-width: 100%;
+    }
+
+    .award-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-award {
+        width: 90%;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+}
+
+@media (max-width : 550px) {
+    .award1 {
+        height: auto;
+    }
+}
